@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Page Personnelle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .links {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            border: 1px solid #333;
+            padding: 10px 15px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        .links a:hover {
+            background-color: #333;
+            color: #fff;
+        }
+        .artistic-background {
+            background-image: url(https://cdn.midjourney.com/0375efb2-81d4-4fb3-a291-ba11134f9aec/0_3.png); /* Remplace avec une vraie URL d'image artistique */
+            background-size: cover;
+            background-position: center;
+            padding: 50px 0;
+            color: #fff;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur ma page personnelle</h1>
+    </header>
+
+    <div class="container">
+        <section class="artistic-background">
+            <h2>Mes chaînes YouTube</h2>
+            <p>Découvrez mes chaînes YouTube où je partage ma passion pour la philosophie et la science.</p>
+            <div class="links">
+                <a href="https://www.youtube.com/@Silogic" target="_blank">Chaîne 1</a>
+                <a href="https://www.youtube.com/@Philosophie21" target="_blank">Chaîne 2</a>
+<a href="https://www.youtube.com/@Educonico" target="_blank">Chaîne 3</a>
+                <a href="https://www.youtube.com/user/philonico" target="_blank">Chaîne 4</a>
+
+            </div>
+        </section>
+
+        <section>
+            <h2>La philosophie comme manière de vivre</h2>
+            <p>La philosophie n'est pas seulement un domaine d'étude, c'est une manière de vivre. Elle nous aide à comprendre le monde et à y trouver du sens.</p>
+        </section>
+
+        <section>
+            <h2>Les explications transforment le monde</h2>
+            <p>Je crois fermement que l'éducation et les explications claires sont des outils puissants pour changer le monde. En partageant nos connaissances, nous pouvons éclairer les autres et créer un impact durable.</p>
+        </section>
+
+        <section class="links">
+            <h2>Retrouvez-moi sur les réseaux sociaux</h2>
+            <a href="https://x.com/Philoniko" target="_blank">X (anciennement Twitter)</a>
+            <a href="https://www.facebook.com/Philonico" target="_blank">Facebook</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Ma Page Personnelle. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
